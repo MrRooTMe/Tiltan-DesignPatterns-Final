@@ -12,6 +12,7 @@ public class Item : MonoBehaviour
     void ColletItem()
     {
         ItemCollected.Invoke();
+
     }
     private void OnMouseDown()
     {

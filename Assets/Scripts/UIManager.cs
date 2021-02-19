@@ -35,6 +35,7 @@ public class UIManager : MonoBehaviour
     void OnKeyCollected()
     {
      text.text = "Key Collected";
+        Destroy(this);
     }
     void OnDoorOpened()
     {

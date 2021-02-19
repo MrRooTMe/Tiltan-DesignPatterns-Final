@@ -7,13 +7,13 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
 
 
-    private Key key;
+    //private Key key;
     
     
     // Start is called before the first frame update
     void Start()
     {
-        key = new Key();
+       // key = new Key();
    
     }
 
@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+       /* if (Input.GetKeyDown(KeyCode.A))
         {
             key.Notify();
         }
@@ -33,6 +33,6 @@ public class GameManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.B))
         {
             
-        }
+        }*/
     }
 }
